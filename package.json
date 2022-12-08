@@ -1,0 +1,45 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "On this website you can find and rate camp gorunds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node /app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanchitYadav2005/YelpCamp.git"
+  },
+  "keywords": [
+    "yelpcamp"
+  ],
+  "author": "Sanchit Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanchitYadav2005/YelpCamp/issues"
+  },
+  "homepage": "https://github.com/SanchitYadav2005/YelpCamp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.32.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-session": "^1.17.3",
+    "joi": "^17.6.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.6.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "sanitize-html": "^2.7.3"
+  }
+}
