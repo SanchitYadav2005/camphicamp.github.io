@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "On this website you can find and rate camp gorunds",
   "main": "index.js",
+  "homepage": "http://{sanchityadav2005}.github.io/{camphicamp}",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node /app/app.js"
+    "start": "node app.js",
+    "predeploy" : "npm run build",
+  "deploy" : "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SanchitYadav2005/YelpCamp.git"
+    "url": "git+https://github.com/SanchitYadav2005/camphicamp.git"
   },
   "keywords": [
     "yelpcamp"
@@ -17,9 +20,8 @@
   "author": "Sanchit Yadav",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SanchitYadav2005/YelpCamp/issues"
+    "url": "https://github.com/SanchitYadav2005/camphicamp/issues"
   },
-  "homepage": "https://github.com/SanchitYadav2005/YelpCamp#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "cloudinary": "^1.32.0",
@@ -31,6 +33,7 @@
     "express": "^4.18.2",
     "express-mongo-sanitize": "^2.2.0",
     "express-session": "^1.17.3",
+    "gh-pages": "^4.0.0",
     "joi": "^17.6.2",
     "method-override": "^3.0.0",
     "mongoose": "^6.6.1",
